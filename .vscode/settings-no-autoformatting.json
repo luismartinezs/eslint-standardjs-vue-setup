@@ -25,7 +25,7 @@
   "editor.formatOnSave": false,
 
   // Sets prettier as default formatter for any file, overwriting later as needed
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   // Disables VSC JavaScript syntax validation
   "javascript.validate.enable": false,
@@ -38,7 +38,7 @@
     "html"
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": false
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
 
@@ -50,7 +50,7 @@
   // Disables the default template validation of Vetur, used when a specific eslint configuration is required for .vue templates.
   "vetur.validation.template": false,
 
-  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatter.html": "none",
   "vetur.format.defaultFormatter.css": "prettier",
   "vetur.format.defaultFormatter.scss": "prettier",
 
@@ -63,7 +63,7 @@
   // ===
 
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": null
   },
   "[javascript]": {
     // Format .js files AND scripts in .vue files on save
@@ -72,7 +72,7 @@
     "editor.defaultFormatter": "numso.prettier-standard-vscode"
   },
   "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": null
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
